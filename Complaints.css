@@ -1,0 +1,243 @@
+.complaintMain{
+    display: flex;
+}
+
+.complaintsDiv{
+   
+    overflow: auto;
+    height: 92vh;
+    background-color: snow;
+    width: 85vw;
+    }
+    .complaintLoadingDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    .complaintsLoading{
+    height: 50px;
+    width: 50px;
+    margin-top: -15%;
+    }
+    .complaintsCard{
+    width: 100%;
+    background-color:#e9ecef ;
+    ;
+    }
+    
+    .complaintsCard .complaintTable{
+    font-weight: bolder;
+    }
+
+    .hoverCard:hover {
+        background-color: #dedeef; /* Change this color to the one you prefer on hover */
+    }
+    .statusData{
+        margin-left: 60%;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .complaintCardHrading{
+        margin-left: 15%;
+    }
+    .hoverCard .divider{
+        margin-top: -5px; /* Adjust the value to move the divider up */
+        margin-bottom: 10px;     }
+
+    @media screen and (max-width: 1440px)  {
+        .complaintMain{
+            display: flex;
+        }
+        .complaintsDiv{
+       
+            overflow: auto;
+            height: 98vh;
+            background-color: snow;
+            }
+    
+            .complaintsCard{
+                width: 100%;
+                background-color:#e9ecef ;
+                ;
+                }
+    
+                .complaintCardContent{
+                    font-size: 14px;
+                }
+    
+                .statusData{
+                    margin-left: 50%;
+                    font-weight: bolder;
+                    font-size: 20px;
+                }
+            
+          
+    }
+    
+  @media screen and (max-width: 1024px)  {
+    .complaintMain{
+        display: flex;
+    }
+    .complaintsDiv{
+      
+        overflow: auto;
+        height: 98vh;
+        background-color: snow;
+        }
+
+        .complaintsCard{
+            width: 100%;
+            background-color:#e9ecef ;
+            ;
+            }
+
+            .complaintCardContent{
+                font-size: 12px;
+            }
+
+            .statusData{
+                margin-left: 40%;
+                font-weight: bolder;
+                font-size: 18px;
+            }
+        
+      
+}
+
+@media screen and (max-width: 768px)  {
+    .complaintMain{
+        display: flex;
+    }
+    .complaintsDiv{
+       
+        margin-left: 3%;
+        overflow: auto;
+        height: 98vh;
+        background-color: snow;
+        }
+
+        .complaintsCard{
+            width: 100%;
+            background-color:#e9ecef ;
+            margin-left: -4%
+            ;
+            }
+
+            .complaintCardContent{
+                font-size: 12px;
+            }
+
+            .statusData{
+                margin-left: 40%;
+                font-weight: bolder;
+                font-size: 16px;
+            }
+        
+      
+}
+
+
+@media screen and (max-width: 425px)  {
+    .complaintMain{
+        display: flex;
+    }
+    .complaintsDiv{
+      
+        margin-left: 2%;
+        overflow: auto;
+        height: 98vh;
+        background-color: snow;
+        }
+
+        .complaintsCard{
+            width: 100%;
+            background-color:#e9ecef ;
+            margin-left: -4% ;
+            margin-top: -2%;
+            }
+
+            .complaintCardContent{
+                font-size: 12px;
+            }
+
+            .statusData{
+                margin-left: 40%;
+                font-weight: bolder;
+                font-size: 16px;
+            }
+        
+      
+}
+
+
+@media screen and (max-width: 375px)  {
+    
+    .complaintMain{
+        display: flex;
+    }
+
+    .complaintsDiv{
+       
+        margin-left: 2%;
+        overflow: auto;
+        height: 98vh;
+        background-color: snow;
+        }
+
+        .complaintsCard{
+            width: 100%;
+            background-color:#e9ecef ;
+            margin-top: -2%;
+            }
+
+            .complaintCardContent{
+                font-size: 10px;
+            }
+
+            .statusData{
+                margin-left: 40%;
+                font-weight: bolder;
+                font-size: 14px;
+            }
+        
+      
+}
+
+
+@media screen and (max-width: 320px)  {
+    .complaintMain{
+        display: flex;
+    }
+    .complaintsDiv{
+      
+        margin-left: 1%;
+        overflow: auto;
+        height: 98vh;
+        background-color: snow;
+        }
+
+        .complaintsCard{
+            width: 100%;
+            background-color:#e9ecef ;
+            margin-top: -2%;
+            }
+
+            .complaintCardContent{
+                font-size: 9px;
+            }
+
+            .statusData{
+                margin-left: 40%;
+                font-weight: bolder;
+                font-size: 12px;
+            }
+
+            .complaintCardHrading{
+                margin-left: 12%;
+            }
+        
+        
+      
+}

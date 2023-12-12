@@ -1,0 +1,53 @@
+
+.loginPaper{
+padding: 20px;
+margin-top: 180px;
+width:28%;
+margin-left: 35%;
+border-width: 1px;
+border-style: solid;
+border-color: black;
+
+}
+.loginErr{
+    color: red;
+}
+
+.loginPaper .loginText{
+text-align: center;}
+
+
+@media (max-width: 425px) {
+
+
+    .loginPaper{
+        padding: 60px;
+        margin-top: 180px;
+        width:48%;
+        margin-left: 12%;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        
+        }
+
+
+
+  }
+
+
+  @media (max-width: 325px) {
+
+
+    .loginPaper{
+        padding: 50px;
+        margin-top: 180px;
+        width:48%;
+        margin-left: 10%;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        
+        }
+
+  }

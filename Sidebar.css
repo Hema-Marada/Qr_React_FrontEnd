@@ -1,0 +1,309 @@
+/* Sidebar.css */
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 12vw;
+    height: 86vh;
+  }
+  
+  .sidebar .button {
+   
+    width: 140%;
+    text-align:center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: -35%;
+  }
+  .sidebar .agentButton {
+   
+    width: 140%;
+    text-align:center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: -35%;
+  }
+  
+  
+  .button b {
+   
+    color: white;
+  }
+
+  .agentButton b {
+   
+    color: white;
+  
+  }
+  
+  .button:hover,
+  .button.activeButton {
+    background: #84848e;
+    color: #fff;
+  }
+
+  .agentButton:hover,
+  .agentButton.activeButton {
+    background: #84848e;
+    color: #fff;
+  }
+
+  .mainSideHead{
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Header{
+   background-color: red;
+  }
+  
+
+
+
+
+ @media screen and (max-width: 768px)  {
+    
+
+    .sidebar {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      width: 150px;
+      height: 94vh;
+    }
+
+    .sidebar .button {
+   
+      width: 130%;
+      text-align:center;
+      padding: 10px;
+      border-radius: 5px;
+      color: #fff;
+      margin-left: -40%;
+    }
+    .sidebar .agentButton {
+     
+      width: 130%;
+      text-align:center;
+      padding: 10px;
+      border-radius: 5px;
+      color: #fff;
+      margin-left: -40%;
+      height: 80%;
+    }
+
+    .button b {
+   
+      color: white;
+      font-size: 12px;
+    }
+    .agentButton b {
+   
+      color: white;
+      font-size: 12px;
+    }
+    
+      
+} 
+
+
+
+@media screen and (max-width: 1024px)  {
+    
+
+  .sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 150px;
+    height: 96vh;
+  }
+
+  .sidebar .button {
+ 
+    width: 130%;
+    text-align:center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: -40%;
+  }
+  .sidebar .agentButton {
+   
+    width: 130%;
+    text-align:center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: -40%;
+    height: 80%;
+  }
+
+  .button b {
+ 
+    color: white;
+    font-size: 12px;
+  }
+  .agentButton b {
+ 
+    color: white;
+    font-size: 12px;
+  }
+    
+    
+}
+
+@media screen and (max-width: 1024px)  {
+    
+
+  .sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 150px;
+    height: 94vh;
+  }
+
+  .sidebar .button {
+ 
+    width: 130%;
+    text-align:center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: -40%;
+  }
+  .sidebar .agentButton {
+   
+    width: 130%;
+    text-align:center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: -40%;
+    height: 80%;
+  }
+
+  .button b {
+ 
+    color: white;
+    font-size: 12px;
+  }
+  .agentButton b {
+ 
+    color: white;
+    font-size: 12px;
+  }
+    
+    
+}
+@media screen and (max-width: 425px)  {
+  .sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+    width: 100px;
+    height: 94vh;
+  }
+
+  .sidebar .button {
+ 
+    width: 80%;
+    text-align:center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: -50%;
+  }
+  .sidebar .agentButton {
+   
+    width: 160%;
+    text-align:center;
+    padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: -68%;
+    height: 60%;
+  }
+
+  .button b {
+ 
+    color: white;
+    font-size: 10px;
+  }
+  .agentButton b {
+ 
+    color: white;
+    font-size: 9px;
+  }
+
+  
+  .button b {
+   
+    color: white;
+  }
+
+  .agentButton b {
+   
+    color: white;
+  
+  }
+  
+  .button:hover,
+  .button.activeButton {
+    background: #84848e;
+    color: #fff;
+  }
+
+  
+    
+}
+
+@media screen and (max-width: 320px)  {
+  .sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 80px;
+    height: 94vh;
+  }
+
+  .sidebar .button {
+ 
+    width: 80%;
+    text-align:center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: -75%;
+  }
+  .sidebar .agentButton {
+   
+    width: 160%;
+    text-align:center;
+    padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: -105%;
+    height: 60%;
+  }
+
+  .button b {
+ 
+    color: white;
+    font-size: 8px;
+  }
+  .agentButton b {
+ 
+    color: white;
+    font-size: 8px;
+  }
+  
+    
+} 
+
+
+

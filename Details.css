@@ -1,0 +1,43 @@
+.detailsCompHeaderDiv{
+background-color: snow;
+height: 80vh;
+
+}
+.welcomeTextDiv{
+background-color: #2e2d2d;
+height: 50px;
+display: flex;
+}
+
+.welcomeText{
+color: white;
+font-size: 24px;
+justify-content: center;
+margin-left: 39%;
+margin-top: 0.5%
+}
+.logoutButton{
+margin-left: 30%;
+height: 65%;
+margin-top: 0.5%;
+}
+.viewProfile{
+margin-top:20% ;
+margin-left: 28%;
+color: white;
+width: 60%;
+}
+.detailsContainer{
+margin-top: 12px;
+width: 45%;
+display: flex;
+height: 85vh;
+
+}
+.detailsCard{
+margin-left: 20%;
+height: 92%;
+margin-top: 10%;
+
+}
+

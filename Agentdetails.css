@@ -1,0 +1,635 @@
+.gcontainer {
+  display: flex;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); 
+  gap: 16px; 
+}
+
+.agentCompMainDiv{
+
+overflow: auto;
+height: 91vh;
+background-color: snow;
+grid-column: span 10;
+width: 85vw;
+
+}
+.agentCompLoadingDiv{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.agentCompLoading{
+    height: 50px;
+    width: 50px;
+    margin-left: 6%;
+}
+.agentCompCard{
+padding: 6px;
+box-shadow: revert-layer;
+height: 60vh;
+
+background-color: #e9ecef;
+margin-top: 1%;
+border-radius: 5%;
+}
+.agentCompCardContentDiv{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.agentCompImg{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+}
+.agentCompContentMainDiv{
+    margin-left: 1%;
+}
+.agentCompContentData{
+display: flex;
+flex-direction: row;
+margin-left: -10%;
+margin-top: 1.5%;
+}
+.agentCompNameDiv{
+flex: 1;
+width: 50%;
+font-size: 14px;
+}
+.agentCompData{
+flex: 1;
+width: 50%;
+font-size: 14px;
+margin-left: -10%;
+margin-top: 1.5%;
+white-space: nowrap;
+}
+.viewDetailsDiv{
+margin-top: 30%;
+margin-left: 30%;
+}
+.viewDetailsDiv .viewDetailsButton{
+
+width: 120px;
+height: 40px;
+background-color: #32588D;
+}
+.boxContainer {
+    position: absolute;
+    max-height: 500px;
+    overflow: auto;
+    top: 50%;
+    left: 50%;
+    height: 50;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: #ffffff; /* Set your background color */
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.16); /* Adjust box-shadow as needed */
+    padding: 16px; /* Adjust padding as needed */
+  }
+  .boxContainer .agentCompCloseButton{
+margin-top: -10%;
+margin-left: 95%;
+background-color: white;
+font-size: 20px;
+  }
+  .agentCompCardMainDiv{
+max-height: 460px;
+overflow: auto;
+  }
+  .agentCompCardDiv{
+max-height: 100%;
+overflow-y: auto;
+  }
+  .agentCompModalImgDiv{
+display: flex;
+align-items: center;
+  }
+  .agentCompModalImg{
+height: 100px;
+width: 100px;
+border-bottom: 50%;
+border-radius: 50%;
+  }
+  .agentCompModalDataDiv{
+display: flex;
+flex-direction: column;
+margin-left: 20px;
+  }
+  .agentCompModalDataDiv .agentCompModalData{
+display: flex;
+align-items: center;
+font-size: 20px;
+font-weight: bolder;
+}
+.agentCompCertificate{
+margin-top: 4%;
+margin-bottom: 4%;
+}
+.agentCompPendingButton{
+color: white;
+margin-bottom: 10%;
+margin-top: 5%;
+}  
+.agentCompLoadingDivFinal{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 460px;
+}
+.agentCompDialog{
+margin-right: 3%;
+width: 15%;
+font-weight: bolder;
+background-color: #e9ecef;
+}
+.agentCompDataDisplay{
+display: flex;
+flex-direction: row;
+margin-left: -10%;
+margin-top: 4%;
+}
+.agentCompName{
+flex: 1;
+width: 50%;
+font-size: 14px;
+margin-left: -6%;
+}
+
+.hoverGrid :hover{
+background-color: rgb(227, 239, 242);
+}
+
+
+
+
+
+
+@media screen and (max-width: 1440px)  {
+    
+  .gcontainer {
+    display: flex;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    gap: 16px; 
+  }
+  .agentCompMainDiv{
+    overflow: auto;
+    height: 91vh;
+    background-color: snow;
+
+    }
+  .agentCompCard{
+    padding: 4px;
+    box-shadow: revert-layer;
+    height: 92%;
+    width: 97%;
+    background-color: #e9ecef;
+    margin-top: 15%;
+    border-radius: 5%;
+    margin-left: 2%;
+    }
+
+    .agentCompCardContentDiv{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      }
+
+
+      .agentCompImg{
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        }
+        .agentCompContentMainDiv{
+            margin-left: 1%;
+        }
+        .agentCompContentData{
+        display: flex;
+        flex-direction: row;
+        margin-left: -4%;
+        margin-top: 1.5%;
+        }
+        .agentCompNameDiv{
+        flex: 1;
+        width: 80%;
+        font-size: 18px;
+        }
+
+        .agentCompData{
+          flex: 1;
+          width: 80%;
+          font-size: 18px;
+          margin-left: -12%;
+          margin-top: 1.5%;
+          }
+
+          .viewDetailsButton{
+            margin-top: 25px;
+            margin-left: 60%;
+            margin-bottom: -18%;
+            background-color: #32588D;
+            }
+            .boxContainer .agentCompCloseButton{
+              margin-top: -6%;
+              margin-left: 93%;
+              background-color: white;
+              font-size: 20px;
+                }
+}
+
+
+@media screen and (max-width: 1024px)  {
+    
+  .gcontainer {
+    display: flex;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    gap: 16px; 
+  }
+  .agentCompMainDiv{
+   
+    overflow: auto;
+    height: 98vh;
+    background-color: snow;
+    }
+  .agentCompCard{
+    padding: 4px;
+    box-shadow: revert-layer;
+    height: 92%;
+    width: 97%;
+    background-color: #e9ecef;
+    margin-top: 13%;
+    border-radius: 5%;
+    margin-left: 1%;
+    }
+
+    .agentCompCardContentDiv{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      }
+
+
+      .agentCompImg{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        }
+        .agentCompContentMainDiv{
+            margin-left: 1%;
+        }
+        .agentCompContentData{
+        display: flex;
+        flex-direction: row;
+        margin-left: -4%;
+        margin-top: 1.5%;
+        }
+        .agentCompNameDiv{
+        flex: 1;
+        width: 50%;
+        font-size: 12px;
+        }
+
+        .agentCompData{
+          flex: 1;
+          width: 70%;
+          font-size: 12px;
+          margin-left: -12%;
+          margin-top: 1.5%;
+          }
+
+          .viewDetailsButton{
+            margin-top: 25%;
+            margin-left: 60%;
+            margin-bottom: -18%;
+            background-color: #32588D;
+            }
+
+}
+
+@media screen and (max-width: 768px)  {
+    
+  .gcontainer {
+    display: flex;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    gap: 16px; 
+  }
+    .agentCompMainDiv{
+    
+      overflow: auto;
+      height: 95vh;
+      background-color: snow;
+      }
+    .agentCompCard{
+      padding: 8px;
+      box-shadow: revert-layer;
+      height: 94%;
+      width: 80%;
+      background-color: #e9ecef;
+      margin-top: 10%;
+      border-radius: 5%;
+      margin-left: 10%;
+      }
+
+}
+@media screen and (max-width: 425px)  {
+    
+  .gcontainer {
+    display: flex;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    gap: 16px; 
+  }
+  .agentCompMainDiv{
+  
+  
+    overflow: auto;
+    height: 94vh;
+    background-color: snow;
+    }
+  .agentCompCard{
+    padding: 8px;
+    box-shadow: revert-layer;
+    height: 95%;
+    width: 80%;
+    background-color: #e9ecef;
+    margin-top: 8%;
+    border-radius: 5%;
+    margin-left: 6%;
+    }
+
+    .agentCompImg{
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      }
+      .agentCompContentMainDiv{
+          margin-left: 1%;
+      }
+      .agentCompContentData{
+      display: flex;
+      flex-direction: row;
+      margin-left: -10%;
+      margin-top: 1.5%;
+      }
+      .agentCompNameDiv{
+      flex: 1;
+      width: 60%;
+      font-size: 12px;
+      }
+      .boxContainer {
+        position: absolute;
+        max-height: 380px;
+        overflow: auto;
+        top: 50%;
+        left: 50%;
+        height: 50;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        background-color: #ffffff; 
+        box-shadow: 0 0 24px rgba(0, 0, 0, 0.16); 
+        padding: 16px; 
+      }
+
+      .boxContainer .agentCompCloseButton{
+        margin-top: -10%;
+        margin-left: 90%;
+        background-color: white;
+        font-size: 16px;
+          }
+
+
+          .agentCompCardMainDiv{
+            max-height: 460px;
+            overflow: auto;
+              }
+              .agentCompCardDiv{
+            max-height: 100%;
+            overflow-y: auto;
+              }
+              .agentCompModalImgDiv{
+            display: flex;
+            align-items: center;
+              }
+              .agentCompModalImg{
+            height: 70px;
+            width: 70px;
+            border-bottom: 50%;
+            border-radius: 50%;
+              }
+              .agentCompModalDataDiv{
+            display: flex;
+            flex-direction: column;
+            margin-left: 16px;
+              }
+              .agentCompModalDataDiv .agentCompModalData{
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            font-weight: bolder;
+            }
+            .agentCompCertificate{
+            margin-top: 6%;
+            margin-bottom: 4%;
+            }
+            .agentCompPendingButton{
+            color: white;
+            margin-bottom: 15%;
+            margin-top: 10%;
+            }  
+
+
+      .agentCompData{
+        flex: 1;
+        width: 70%;
+        font-size: 12px;
+        margin-left: -14%;
+        margin-top: 1.5%;
+        }
+
+}
+
+
+@media screen and (max-width: 375px)  {
+    
+  .gcontainer {
+    display: flex;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    gap: 16px; 
+  }
+  .agentCompMainDiv{
+  
+    overflow: auto;
+    height: 96vh;
+    background-color: snow;
+    }
+  .agentCompCard{
+    padding: 8px;
+    box-shadow: revert-layer;
+    height: 95%;
+    width: 80%;
+    background-color: #e9ecef;
+    margin-top: 1%;
+    border-radius: 5%;
+    margin-left: 7%;
+    }
+
+    .agentCompImg{
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      }
+      .agentCompContentMainDiv{
+          margin-left: 1%;
+      }
+      .agentCompContentData{
+      display: flex;
+      flex-direction: row;
+      margin-left: -10%;
+      margin-top: 1.5%;
+      }
+      .agentCompNameDiv{
+      flex: 1;
+      width: 60%;
+      font-size: 10px;
+      }
+
+      .agentCompData{
+        flex: 1;
+        width: 70%;
+        font-size: 10px;
+        margin-left: -14%;
+        margin-top: 1.5%;
+        }
+
+        .viewDetailsButton{
+          margin-top: 25%;
+          margin-left: 60%;
+          margin-bottom: -18%;
+          background-color: #32588D;
+          }
+
+}
+
+
+
+@media screen and (max-width: 320px)  {
+    
+  .gcontainer {
+    display: flex;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    gap: 16px; 
+  }
+  .agentCompMainDiv{
+  
+    overflow: auto;
+    height: 96vh;
+    background-color: snow;
+    }
+  .agentCompCard{
+    padding: 8px;
+    box-shadow: revert-layer;
+    height: 95%;
+    width: 90%;
+    background-color: #e9ecef;
+    margin-top: 1%;
+    border-radius: 5%;
+    margin-left: 2%;
+    }
+
+    .agentCompImg{
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      }
+      .agentCompContentMainDiv{
+          margin-left: 1%;
+      }
+      .agentCompContentData{
+      display: flex;
+      flex-direction: row;
+      margin-left: -10%;
+      margin-top: 1.5%;
+      }
+      .agentCompNameDiv{
+      flex: 1;
+      width: 60%;
+      font-size: 9px;
+      }
+      .boxContainer {
+        position: absolute;
+        max-height: 300px;
+        overflow: auto;
+        top: 50%;
+        left: 50%;
+        height: 50;
+        transform: translate(-50%, -50%);
+        width: 260px;
+        background-color: #ffffff;
+        box-shadow: 0 0 24px rgba(0, 0, 0, 0.16); 
+        padding: 16px; 
+      }
+
+      .boxContainer .agentCompCloseButton{
+        margin-top: -10%;
+        margin-left: 89%;
+        background-color: white;
+        font-size: 16px;
+          }
+
+
+          .agentCompCardMainDiv{
+            max-height: 400px;
+            overflow: auto;
+              }
+              .agentCompCardDiv{
+            max-height: 100%;
+            overflow-y: auto;
+              }
+              .agentCompModalImgDiv{
+            display: flex;
+            align-items: center;
+              }
+              .agentCompModalImg{
+            height: 60px;
+            width: 60px;
+            border-bottom: 50%;
+            border-radius: 50%;
+              }
+              .agentCompModalDataDiv{
+            display: flex;
+            flex-direction: column;
+            margin-left: 12px;
+              }
+              .agentCompModalDataDiv .agentCompModalData{
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            font-weight: bolder;
+            }
+            .agentCompCertificate{
+            margin-top: 6%;
+            margin-bottom: 4%;
+            }
+            .agentCompPendingButton{
+            color: white;
+            margin-bottom: 15%;
+            margin-top: 10%;
+            }  
+
+      .agentCompData{
+        flex: 1;
+        width: 70%;
+        font-size: 9px;
+        margin-left: -14%;
+        margin-top: 1.5%;
+        }
+        .viewDetailsButton{
+          margin-top: 25%;
+          margin-left: 60%;
+          margin-bottom: -18%;
+          background-color: #32588D;
+          }
+
+}
+

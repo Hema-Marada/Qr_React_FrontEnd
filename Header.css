@@ -1,0 +1,197 @@
+.HeaderDiv {
+    background-color: black;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px; /* Add padding for better spacing */
+  }
+  
+  .headerLogo {
+    height: 8vh; /* Adjust the height as needed */
+    width: 231.5px; /* Adjust the width as needed */
+    margin-left: -1%;
+  }
+  
+  .HeaderDiv .headerwelcomeText {
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .HeaderDiv .logoutButton {
+    margin-top: 0.5%;
+  }
+  
+
+@media screen and (max-width: 1440px)  {
+
+    .HeaderDiv {
+        background-color: black;
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 16px; /* Add padding for better spacing */
+      }
+    .headerLogo {
+        height: 8vh; /* Adjust the height as needed */
+        width: 212px; /* Adjust the width as needed */
+        margin-left: -1%;
+      }
+      
+    
+    .HeaderDiv  .headerwelcomeText{
+      color: white;
+      font-size: 26px;
+    }
+    .HeaderDiv  .logoutButton{
+        margin-top: 0.5%;
+    }
+}
+
+
+@media screen and (max-width: 1024px)  {
+
+    .HeaderDiv {
+        background-color: black;
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 16px; /* Add padding for better spacing */
+      }
+    .headerLogo {
+        height: 8vh; /* Adjust the height as needed */
+        width: 188px; /* Adjust the width as needed */
+        margin-left: -1.5%;
+      }
+      
+    
+    .HeaderDiv  .headerwelcomeText{
+      color: white;
+      font-size: 26px;
+    }
+    .HeaderDiv  .logoutButton{
+        margin-top: 0.5%;
+    }
+}
+
+
+@media screen and (max-width: 768px)  {
+
+    .HeaderDiv {
+        background-color: black;
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 16px; /* Add padding for better spacing */
+      }
+    .headerLogo {
+        height: 8vh; /* Adjust the height as needed */
+        width: 189px; /* Adjust the width as needed */
+        margin-left: -2%;
+      }
+      
+    
+    .HeaderDiv  .headerwelcomeText{
+      color: white;
+      font-size: 22px;
+    }
+    .HeaderDiv  .logoutButton{
+        margin-top: 0.5%;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 425px)  {
+
+    .HeaderDiv {
+        background-color: black;
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 16px; /* Add padding for better spacing */
+      }
+    .headerLogo {
+        height: 8vh; /* Adjust the height as needed */
+        width: 125px; /* Adjust the width as needed */
+        margin-left: -4%;
+      }
+      
+    
+    .HeaderDiv  .headerwelcomeText{
+      color: white;
+      font-size: 16px;
+    }
+    .HeaderDiv  .logoutButton{
+        margin-top: 0.5%;
+        width: 70px;
+        font-size: 8px;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (max-width: 375px)  {
+
+    .HeaderDiv {
+        background-color: black;
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 16px; /* Add padding for better spacing */
+      }
+    .headerLogo {
+        height: 8vh; /* Adjust the height as needed */
+        width: 123px; /* Adjust the width as needed */
+        margin-left: -4%;
+      }
+      
+    
+    .HeaderDiv  .headerwelcomeText{
+      color: white;
+      font-size: 12px;
+    }
+    .HeaderDiv  .logoutButton{
+        margin-top: 0.5%;
+        width: 70px;
+        font-size: 8px;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (max-width: 320px)  {
+
+    .HeaderDiv {
+        background-color: black;
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 16px; /* Add padding for better spacing */
+      }
+    .headerLogo {
+        height: 8vh; /* Adjust the height as needed */
+        width: 102px; /* Adjust the width as needed */
+        margin-left: -6%;
+      }
+      
+    
+    .HeaderDiv  .headerwelcomeText{
+      color: white;
+      font-size: 12px;
+    }
+    .HeaderDiv  .logoutButton{
+        margin-top: 0.5%;
+        width: 70px;
+        font-size: 8px;
+        font-weight: bold;
+    }
+  
+}

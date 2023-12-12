@@ -1,0 +1,257 @@
+
+.customerFormContainer{
+    display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: snow;
+   }
+ 
+
+.customerFormCard{
+   min-width: 400px;
+margin: auto;
+padding: 16px;
+border-width: 1px;
+border-style: solid;
+border-color: black;
+}
+
+.customerForm{
+    display: flex;
+    flex-direction: column;
+    gap: 16;
+  border-color: black;
+  height: 400px;
+}
+
+
+.customerForm .customerFormButton{
+background-color: #32588D;
+border-color:#538dde ;
+font-size: 14px;
+min-width: 100px;
+height: 36px;
+font-weight: 500;
+margin-top: -8%;
+margin-left: 100%;
+position: relative;
+
+}
+.customerForm  .customerFormCancelButton{
+margin-top: 6%;
+margin-left: 1%;
+color: #32588D;
+min-width: 120px;
+height: 38px;
+position: relative;
+}
+
+.customerFormBackButton{
+color: #32588D;
+background-color: transparent;
+border-color: #32588D;
+font-size: 14px;
+width: 91px;
+height: 36px;
+font-weight: 500;
+margin-top: -12%;
+margin-left: 100%;
+}
+ 
+
+
+.customerInput{
+    margin-bottom: 16px;
+}
+      
+ 
+.customerFormCard .customerFormHeading{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-left: 20px;
+   }
+
+  
+
+
+  .customerFormLoadingDiv{
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+
+
+
+  .customerFormLoading{
+margin-top: -80%;
+height: 120px;
+width: 120px;
+  }
+  .customerFormCard.smallCard {
+    min-width: 300px; /* Adjust the width as needed for Step 2 */
+    height: 200px; 
+ }
+
+    .customerForm .customerFormCancelButton.smallButton
+   {
+    margin-top: 20%;
+margin-left: 1%;
+color: #32588D;
+min-width: 90px;
+height: 38px;
+position: relative;
+    }
+  
+    .customerFormBackButton.smallButton
+   {
+    min-width: 90px;
+    margin-top: 20%;
+    }
+    .customerFormBackButton.largeButton
+    {
+     min-width: 90px;
+     margin-top: 6%;
+     }
+    .customerFormButton.smallButton {
+        min-width: 90px;
+        margin-top: -10%;
+    }
+
+    .customerFormCard.largeCard {
+        min-width: 400px; /* Adjust the width as needed for Step 2 */
+        height: 570px; 
+      }
+
+
+
+      @media (max-width: 425px) {
+        .customerFormCard {
+          min-width: 280px; /* Adjust the width for smaller screens */
+          height: auto; /* Adjust the height as needed */
+        }
+      
+        .customerFormButton,
+        .customerFormCancelButton,
+        .customerFormBackButton {
+          min-width: 40px; /* Adjust the button width */
+          margin-top: 8px; /* Adjust the margin top for buttons */
+          margin-left: auto; /* Center buttons by setting margin-left to auto */
+          margin-right: auto; /* Center buttons by setting margin-right to auto */
+        }
+      
+        .customerFormBackButton.largeButton {
+          margin-top: 4%; /* Adjust the margin top for large button */
+        }
+      
+        .customerFormButton.smallButton {
+          margin-top: -12%; /* Adjust the margin top for small button */
+        }
+      
+        .customerFormCard.largeCard {
+          min-width: 250px; /* Adjust the width for larger screens */
+          height: auto; /* Adjust the height as needed */
+        }
+
+        .customerFormCard .customerFormHeading{
+          font-size: 18px;
+          font-weight: bold;
+          margin-bottom: 16px;
+          margin-left: 20px;
+         }
+      
+
+
+
+         .customerFormCard.smallCard {
+          min-width: 300px; /* Adjust the width as needed for Step 2 */
+          height: 200px; 
+       }
+      
+          .customerForm .customerFormCancelButton.smallButton
+         {
+          margin-top: 20%;
+      margin-left: 0.5%;
+      color: #32588D;
+      min-width: 60px;
+      height: 30px;
+      position: relative;
+          }
+        
+          .customerFormBackButton.smallButton
+         {
+          min-width: 60px;
+          margin-top: 20%;
+          }
+          .customerFormBackButton.largeButton
+          {
+           min-width: 60px;
+           margin-top: 6%;
+           }
+          .customerFormButton.smallButton {
+              min-width: 80px;
+              margin-top: -12%;
+              margin-left: 110%;
+          }
+      
+
+
+      }
+
+      @media (max-width: 325px) {
+      
+
+
+         .customerFormCard.smallCard {
+          min-width: 220px; /* Adjust the width as needed for Step 2 */
+          height: 180px; 
+       }
+      
+          .customerForm .customerFormCancelButton.smallButton
+         {
+          margin-top: 40%;
+      margin-left: 0.5%;
+      color: #32588D;
+      min-width: 20px;
+      height: 20px;
+      position: relative;
+          }
+        
+          .customerFormBackButton.smallButton
+         {
+          min-width: 20px;
+          margin-top: 20%;
+          }
+          .customerFormBackButton.largeButton
+          {
+           min-width: 30px;
+           margin-top: 4%;
+           }
+          .customerFormButton.smallButton {
+              min-width: 80px;
+              margin-top: -15%;
+              margin-left: 120%;
+          }
+      
+
+
+      }
+
+
+
+      @media (max-width: 425px) {
+        .customerFormCard {
+          min-width: 290px; /* Adjust the width for smaller screens */
+          height: auto; /* Adjust the height as needed */
+        }
+      
+        .customerFormCard.largeCard {
+          min-width: 350px; /* Adjust the width for larger screens */
+          height: 620px; /* Adjust the height as needed */
+        }
+        
+
+
+
+      }
